@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "feb2d943-1c4e-45f0-9ea3-575564fbc530",
+		"name": "APIV1_Materias",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33466662"
+	},
+	"item": [
+		{
+			"name": "https://f529-168-228-200-134.ngrok-free.app/predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"texto\": \"O mercado financeiro iniciou o mês em alta, impulsionado pelo otimismo dos investidores diante dos sinais de recuperação da economia global. A valorização das commodities e a redução nas tensões comerciais entre as grandes potências contribuíram para um aumento na confiança do mercado. No entanto, analistas alertam que a inflação persistente e as incertezas fiscais ainda representam riscos significativos para o crescimento econômico sustentável a longo prazo.\"}\r\n\r\n//{\"texto\": \"Nova lei será discutida na próxima semana\"}\r\n\r\n//{\"texto\": \"O campeonato nacional de futebol está entrando em sua reta final, e a disputa pelo título permanece acirrada. Com apenas três pontos de diferença entre o líder e o segundo colocado, os próximos jogos prometem fortes emoções para os torcedores. O destaque da temporada tem sido o jovem atacante do time líder, que marcou gols decisivos e chamou a atenção de clubes internacionais. A torcida já começa a sonhar com a conquista de mais um troféu para a galeria do clube.'\"}\r\n\r\n//{\"texto\": \"A inteligência artificial continua a revolucionar o setor de tecnologia, com novas inovações surgindo a cada dia. Recentemente, uma startup anunciou o desenvolvimento de um assistente virtual capaz de entender emoções humanas com alta precisão, prometendo transformar a forma como interagimos com dispositivos. Além disso, as gigantes do setor estão investindo pesado em computação quântica, buscando soluções para problemas complexos que os computadores tradicionais não conseguem resolver.\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://f529-168-228-200-134.ngrok-free.app/predict"
+			},
+			"response": []
+		}
+	]
+}
